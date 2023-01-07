@@ -28,7 +28,7 @@ otro_archivo = open("C:\\Users\\Usuario\\Desktop\\Python\\Alternativo\\otro_arch
 print(otro_archivo.read())
 """
 
-carpeta = Path("C:/Users/Usuario/Desktop/Python/Alternativo")
+carpeta = Path("C:/Users/Usuario/Desktop/python-course/alternativo")
 archivo = carpeta / "otro_archivo.txt"
 
 mi_archivo = open(archivo)

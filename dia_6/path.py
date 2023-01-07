@@ -14,7 +14,7 @@ print(guia.parent.parent)
 # for txt in Path(guia).glob("*.py"):
 #     print(txt)
 
-guia = Path("Europam", "España", "Barcelona", "Sagrada_Familia.txt")
+guia = Path("Europa", "España", "Barcelona", "Sagrada_Familia.txt")
 en_europa = guia.relative_to(Path("Europa"))
 en_espania = guia.relative_to(Path("Europa", "España"))
 print(en_europa)
