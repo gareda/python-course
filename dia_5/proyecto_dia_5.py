@@ -63,16 +63,10 @@ def contador_vidas(vida, restar):
     if not restar:
         vida -= 1
 
-        if vida == 0:
-            vivo = False
-
     return vida
 
 
 def partida(vidas, palabra, oculto):
-    victoria = False
-    derrota = False
-
     while oculto != palabra:
         valido = False
 
